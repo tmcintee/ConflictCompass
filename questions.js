@@ -4,7 +4,7 @@ questions =  [
     {"id": 2, "question": "A hunter-gatherer, subsistence farming, or nomadic lifestyle where we live off the land is preferable compared with our sedentary civilisations. I could say a life off the grid is somewhat appealing to me.", "effects": {"prog": -1}},
     {"id": 3, "question": "A more defining difference between people is in their social class than their nationality.", "effects": {"right": -1}},
     {"id": 4, "question": "Possession of drugs for personal use shouldn’t be a criminal offence.", "effects": {"auth": -1}},
-    {"id": 5, "question": "Modern civilisation is a violation of our natural state of nature. That’s why we’re so miserable. Humans aren’t adapted to live like how we do today.": {"prog": -1}},
+    {"id": 5, "question": "Modern civilisation is a violation of our natural state of nature. That’s why we’re so miserable. Humans aren’t adapted to live like how we do today.", "effects": {"prog": -1}},
     {"id": 6, "question": "Wealth redistribution punishes success and rewards laziness.", "effects": {"right": 1}},
     {"id": 7, "question": "It is morally unacceptable for a child to keep secrets from their parents.", "effects": {"auth": 1}},
     {"id": 8, "question": "Modern technology has improved our lives for the better.", "effects": {"prog": 1}},
