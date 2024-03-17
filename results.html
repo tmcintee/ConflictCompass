@@ -11,7 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
-    <title>ThreeDimensions Results</title>
+    <title>ConflictCompass Results</title>
     <link rel="icon" type="x-icon" href="icon.png">
     <link rel="shortcut icon" type="x-icon" href="icon.png">
     <meta charset="utf-8">
@@ -19,14 +19,14 @@
     </head>
     
     <body>
-    <h1 class="title">ThreeDimensions</h1>
+    <h1 class="title">ConflictCompass</h1>
     <svg id="svgHeader" style="width: 100%;" viewBox="0 0 112 19">
-        <text x="50%" y="15" class="svgHeader">ThreeDimensions</text>
+        <text x="50%" y="15" class="svgHeader">ConflictCompass</text>
     </svg>
     <hr>
     
 	<h1 class="title">Results</h1></br>
-    <p style="text-align:center;margin:-2px auto">If you like this quiz, <a href="https://www.buymeacoffee.com/Brioche">consider buying me a coffee!</a> :)))</p></br>
+    <p style="text-align:center;margin:-2px auto">Comment placeholder</p></br>
     <svg id="svgHeader" style="width: 100%;" viewBox="0 0 112 19">
 		<text x="50%" y="15" class="svgHeader">Results</text>
 	</svg>
@@ -38,9 +38,9 @@
     
     <script>
         const urlParams = new URLSearchParams(window.location.search);
-        x_axis  = parseFloat(urlParams.get("right"))
-        y_axis  = parseFloat(urlParams.get("auth"))
-        z_axis  = parseFloat(urlParams.get("prog"))
+        x_axis  = parseFloat(urlParams.get("democracy"))
+        y_axis  = parseFloat(urlParams.get("aggression"))
+        z_axis  = parseFloat(urlParams.get("genocide"))
     
         window.onload = function() {
             var background = new Image();
@@ -71,12 +71,12 @@
                 ctx.font="50px Montserrat"
                 ctx.textAlign="center"
                 ctx.fillStyle="#222222"
-                ctx.fillText("Egalitarian / Aristocratic Axis (x): " + x_axis, 725, 1375)
-                ctx.fillText("Libertarian / Authoritarian Axis (y): " + y_axis, 725, 1450)
-                ctx.fillText("Retrogressive / Progressive Axis (z): " + z_axis, 725, 1525)
+                ctx.fillText("Democracy / Dictatorship Axis (x): " + x_axis, 725, 1375)
+                ctx.fillText("Aggression / Defense Axis (y): " + y_axis, 725, 1450)
+                ctx.fillText("Genocide Axis (z): " + z_axis, 725, 1525)
                 ctx.textAlign="right"
                 ctx.font="30px Montserrat"
-                ctx.fillText("ThreeDimensions.github.io", 1820, 1560)
+                ctx.fillText("tmcintee.github.io/ConflictCompass/", 1820, 1560)
     
                 document.getElementById("banner").src = c.toDataURL();
             }

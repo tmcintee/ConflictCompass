@@ -1,50 +1,56 @@
 questions =  [
-    {"id": 0, "question": "Wage labour under capitalism is an inherently exploitative system.", "effects": {"right": -1}},
-    {"id": 1, "question": "An individual can’t claim any rights against the state, as it is the state that gives them those rights in the first place.", "effects": {"auth": 1}},
-    {"id": 2, "question": "A hunter-gatherer, subsistence farming, or nomadic lifestyle where we live off the land is preferable compared with our sedentary civilisations. I could say a life off the grid is somewhat appealing to me.", "effects": {"prog": -1}},
-    {"id": 3, "question": "A more defining difference between people is in their social class than their nationality.", "effects": {"right": -1}},
-    {"id": 4, "question": "Possession of drugs for personal use shouldn’t be a criminal offence.", "effects": {"auth": -1}},
-    {"id": 5, "question": "Modern civilisation is a violation of our natural state of nature. That’s why we’re so miserable. Humans aren’t adapted to live like how we do today.", "effects": {"prog": -1}},
-    {"id": 6, "question": "Wealth redistribution punishes success and rewards laziness.", "effects": {"right": 1}},
-    {"id": 7, "question": "It is morally unacceptable for a child to keep secrets from their parents.", "effects": {"auth": 1}},
-    {"id": 8, "question": "Modern technology has improved our lives for the better.", "effects": {"prog": 1}},
-    {"id": 9, "question": "It is the responsibility of those with privilege to give a hand to those who are disprivileged in comparison.", "effects": {"right": -1}},
-    {"id": 10, "question": "The people should retain the right to overthrow their government if it becomes tyrannical.", "effects": {"auth": -1}},
-    {"id": 11, "question": "Even if you think things suck now, let’s be honest, they sucked a lot worse back then.", "effects": {"prog": 1}},
-    {"id": 12, "question": "Your failures are your own failures. Stop blaming others and pull yourself up by your bootstraps!", "effects": {"right": 1}},
-    {"id": 13, "question": "If we let certain deviant acts or beliefs get out of control, our society is in great danger, it might even possibly collapse. .", "effects": {"auth": 1}},
-    {"id": 14, "question": "We should be open minded to new scientific discoveries, and innovations in technologies like artificial intelligence and nanotechnology.", "effects": {"prog": 1}},
-    {"id": 15, "question": "When it comes to hierarchy in society, we should by default question its legitimacy, and if it can’t meet its legitimacy, it should be dismantled and replaced by a more egalitarian system.", "effects": {"right": -1}},
-    {"id": 16, "question": "Death is a worthy punishment for some heinous crimes like murder and rape.", "effects": {"auth": 1}},
-    {"id": 17, "question": "There was a time in history that society was better than it is now.", "effects": {"prog": -1}},
-    {"id": 18, "question": "Women are regarded as equal under the law in the Western world, so the societal differences that occur between them are due to their inate biological and psychological differences from men.", "effects": {"right": 1}},
-    {"id": 19, "question": "It’s unacceptable that the government spies on its citizens. We have a right to privacy!", "effects": {"auth": -1}},
-    {"id": 20, "question": "We should expect and accept that people will be concerned when things change in ways they haven’t changed before.", "effects": {"prog": -1}},
-    {"id": 21, "question": "A rising tide lifts all boats. When the wealthy prosper, so do the poor.", "effects": {"right": 1}},
-    {"id": 22, "question": "What goes on in a private bedroom between consenting adults is no business of the state.", "effects": {"auth": -1}},
-    {"id": 23, "question": "People were happier before we developed our modern ways of life.", "effects": {"prog": -1}},
-    {"id": 24, "question": "A society that is classless, moneyless, and stateless is realistically possible.", "effects": {"right": -1}},
-    {"id": 25, "question": "The criminal justice system should be based on rehabilitation rather than retribution.", "effects": {"auth": -1}},
-    {"id": 26, "question": "Transcending the barriers of our human bodies through cybernetics and brain implants is something I believe could bring positives to the world.", "effects": {"prog": 1}},
-    {"id": 27, "question": "If the market isn’t free, then the people aren’t free either.", "effects": {"right": 1}},
-    {"id": 28, "question": "Of course to be safe you have to give up some of your so-called “freedoms”. That’s acceptable if it protects you from criminals and terrorists.", "effects": {"auth": 1}},
-    {"id": 29, "question": "Humanity should push the boundaries of what’s possible and stretch for new frontiers. Reach for the stars!", "effects": {"prog": 1}},
-    {"id": 30, "question": "Everyone should be equal. I know it’s a cliché, but I truly believe it.", "effects": {"right": -1}},
-    {"id": 31, "question": "Abortion should in most cases be illegal. I would only make a few exceptions, if any at all.", "effects": {"auth": 1}},
-    {"id": 32, "question": "Long ago, things were simpler, and perhaps we should return to those times.", "effects": {"prog": -1}},
-    {"id": 33, "question": "Prosperity comes to our society when we nurture the gifts of the gifted. They should be prioritised in our education system.", "effects": {"right": 1}},
-    {"id": 34, "question": "People should have the rights to own firearms, if that’s what they want to do.", "effects": {"auth": -1}},
-    {"id": 35, "question": "Modern science makes our lives better. Just look at our life expectancy. The truth is self-evident.", "effects": {"prog": 1}},
-    {"id": 36, "question": "We should make the struggle for LGBTQ+ rights, feminism, minority rights, etc. a focus of our activism.", "effects": {"right": -1}},
-    {"id": 37, "question": "Pornography, depicting consenting adults should be legal for the adult population.", "effects": {"auth": -1}},
-    {"id": 38, "question": "This might be a hot take, but I really think we should be reducing the size of our economy.", "effects": {"prog": -1}},
-    {"id": 39, "question": "There is no society, there are only individuals.", "effects": {"right": 1}},
-    {"id": 40, "question": "Our schools could really learn some good lessons from how the military works.", "effects": {"auth": 1}},
-    {"id": 41, "question": "I look to the future with optimism. Whatever we come against, I trust humanity to prevail. We’ve always found a way.", "effects": {"prog": 1}},
-    {"id": 42, "question": "Necessities to live like food, water, shelter, etc. should not be commodities to be bought and sold.", "effects": {"right": -1}},
-    {"id": 43, "question": "It’s more important our children learn respect for their elders than anything else.", "effects": {"auth": 1}},
-    {"id": 44, "question": "The Enlightenment was one of, if not the most important, influential, and beneficial moments of humanity’s history.", "effects": {"prog": 1}},
-    {"id": 45, "question": "Some people are just better and therefore more deserving than others; it’s as simple as that.", "effects": {"right": 1}},
-    {"id": 46, "question": "The state shouldn’t enforce a preference for either one religion over another, or a preference for the absence of religion.", "effects": {"auth": -1}},
-    {"id": 47, "question": "The industrial revolution and its consequences have been a disaster for the human race.", "effects": {"prog": -1}},
+    //World War II. Total weight: 6 points.
+    {"id": 0, "question": "In 1937, Japan (Side A) invaded the Republic of China (Side B).", "effects": {"aggression": 1, "genocide": 1}}, //Japanese occupation of Japan, genocidal. "Republic of China" largely a dictatorship at this point in time.
+    {"id": 1, "question": "From 1938-1940, Germany, with the support of Italy, Hungary, Bulgaria, and Romania (Side A), invaded Austria, Czechoslovakia, Poland, Belgium, the Netherlands, Luxembourg, Denmark, Norway, France, Greece, Albania, and Yugoslavia (Side B).", "effects": {"aggression": 2, "genocide": 2, "democracy": -2}}, // This question could be divided into several separate phases, but the answers should generally align anyway.
+    {"id": 2, "question": "From 1939-1940, the Soviet Union (Side A) invaded Poland, Finland, and the Baltic states (Side B).", "effects": {"aggression": 1, "genocide": 1, "democracy": -1 }}, //Soviet Union largely genocidal at this point; Baltics, not so genocidal.
+    {"id": 3, "question": "In 1941, Germany (Side A) invaded the Soviet Union (Side B).", "effects": {"aggression": 1 }}, //Some dispute over which was less democratic or more genocidal, but both were terrible.
+    {"id": 4, "question": "In 1940 and 1941, Japan (Side A) invaded or attacked various Pacific territories belonging to the French, Dutch, British, and Americans (Side B).", "effects": {"aggression": 1, "genocide": 1, "democracy": -1}}, //Japanese occupation of everywhere else ... ALSO genocidal, but in this case they're also fighting against democracy.  
+
+    //After World War II but concluded. Democracy-aggression linkage totals 4 points in this section.
+    {"id": 10, "question": "In 1948, the Jewish-governed areas of the British Mandate of Palestine (Side A) declared their independence from Britain as the state of Isreal, which was immediately invaded by the Arab League (Side B) with the intention of erasing the new country.", "effects": {"aggression": -1, "genocide": -1, "democracy": 1 }},
+    {"id": 11, "question": "In 1950, North Korea (Side A) invaded South Korea (Side B).", "effects": {"aggression": 1 }},
+    {"id": 12, "question": "In 1950, China (Side A) invaded and annexed Tibet (Side B).", "effects": {"aggression": 1 }},
+    {"id": 13, "question": "In 1953, the democratically-elected prime minister of Iran (Side A) was overthrown in a monarchist coup backed by the US and UK (Side B).", "effects": {"democracy": 1 }},
+    {"id": 14, "question": "In 1956, Israel, Britain, and France (Side A) invaded Egypt (Side B) in response to Egyptian trade blockages in the Suez Canal Crisis.", "effects": {"aggression": 1, "democracy": 1 }}, //Democracy aggression!
+    {"id": 15, "question": "In 1958, China (Side A) attempted to land troops on islands controlled by Taiwan (Side B).", "effects": {"aggression": 1 }},
+    {"id": 16, "question": "In 1962 and again in 1965, China (Side A) invaded and annexed lands formerly belonging to India (Side B).", "effects": {"aggression": 1, "democracy":- 1 }},
+    {"id": 17, "question": "In 1965, Pakistan (Side A) invaded territory controlled by India (Side B) across a border established in 1948.", "effects": {"aggression": 1, "democracy":- 1 }},
+    {"id": 19, "question": "In 1967, Israel (Side A) made pre-emptive strikes against the Arab League (Side B) in anticipation of an invasion.", "effects": {"aggression": 1, "democracy": 1 }}, //Democracy aggression!
+    {"id": 20, "question": "In 1967, China (Side A) launched an attack on Indian soldiers (Side B) and was defeated, pushing the border back.", "effects": {"aggression": 1, "democracy":- 1 }},
+    {"id": 21, "question": "In 1969, China (Side A) attacked the Soviet Union (Side B) over possession of several river islands.", "effects": {"aggression": 1 }},
+    {"id": 23, "question": "In 1971, India (Side A) attacked Pakistan (Side B) in reaction to Pakistan's crackdown on Bengal separatists and genocide of Bengal Hindus, creating the independent state of Bangladesh.", "effects": {"aggression": 1, "democracy": 1, "genocide": -1 }}, //Democracy aggression! Bengladesh mostly Muslim, but religious persecution of Hindu Bengals a key motive for Indian intervention.
+    {"id": 24, "question": "In 1973, the Arab League (Side A) launched a surprise attack against Israel (Side B), beginning the Yom Kippur War.", "effects": {"aggression": 1, "democracy": -1 }},
+    {"id": 25, "question": "In 1975, Indonesia (Side A) invaded and annexed East Timor (Side B) following Portuguese withdrawal from East Timor and its other colonies, citing postcolonial reunification. East Timor remained occupied until 1999.", "effects": {"aggression": 1, "genocide": 1 }}, //A third of the population of East Timor died from this.
+    {"id": 26, "question": "In 1977, Kampuchea [Cambodia] (Side A) launched a series of attacks on Vietnamese villages. Vietnam (Side B) responded by invading and deposing the Khmer Rouge government. China (also Side A) responded in 1979 by launching a surprise attack on Vietnam.", "effects": {"aggression": 1,"genocide": 1}}, 
+    {"id": 28, "question": "In 1980, Iraq (Side A) invaded Iran (Side B).", "effects": {"democracy": -1, "genocide": 1, "aggression": 1}}, //Iran had elections to a greater degree than Iraq at this point in time. Saddam's genocidal efforts against Kurds during the late phase of this conflict.
+    {"id": 29, "question": "In 1988, Armenians (Side A) in Armenian-majority areas voted to secede from the Soviet Socialist Republic of Azerbaijan (Side B). Azeri forces responded violently, beginning a six-year war in which they lost significant territory.", "effects": {"democracy": 1, "aggression": -1,  }},  //Ethnic cleansing and violence on both sides (even if the Azeris very clearly initiated both the informal violence and the formal violence).
+    {"id": 30, "question": "In 1991, Iraq (Side A) invaded Kuwait, which was then liberated by a 42-nation coalition (Side B).", "effects": {"aggression": 1}}, //Kuwait not democratic.
+    {"id": 31, "question": "In 2003, Iraq (Side A) was invaded by the United States (Side B) amid allegations of danger from weapons of mass destruction being sent to terrorists.", "effects": {"aggression": -1, "democracy": -1 }}, //Democratic aggression case. It is unambiguous that Iraq is now a much more democratic state as a result of this invasion.
+    {"id": 32, "question": "In 2008, Russian, South Ossetian, and later Abkhaz troops (Side A) attacked and invaded Georgia (Side B), which responded by invading South Ossetia.", "effects": {"democracy": -1, "aggression": 1}}, 
+    {"id": 33, "question": "In 2014, Russia (Side A) carried out a limited invasion of Ukraine (Side B), annexing Crimea and setting up unrecognized breakaway republics on Ukraine's eastern border.", "effects": {"democracy": -1, "aggression": 1}}, //Genocidal activity in this phase not well-documented; also, many people held a different opinion of this than the subsequent 2022 full-scale invasion.
+
+
+    //Present conflicts
+    {"id": 40, "question": "In 1955, a civil war began in Sudan between the governing military dictatorship of northern Sudan (Side A) and rebels in southern Sudan (Side B). The conflict has continued on and off to the present day, leading eventually to the widespread recognition of the independence of South Sudan.", "effects": { "genocide": 1}},
+    {"id": 41, "question": "From 1980 to the present, Uighurs (Side A) have been engaged in an on-and-off rebellion against the People's Republic of China (Side B).", "effects": {"genocide": -1,  }}, //Genocide in this case being primarily documented in terms of cultural destruction and forced sterilization rather than death camps.
+    {"id": 41, "question": "In 2009, the Nigerian military (Side A) forcibly suppressed the Boko Haram movement (Side B), which responded with a violent rebellion, terrorist attacks, and mass kidnappings.", "effects": {"genocide": -1, "democracy": -1, "aggression": 1  }}, //Rare case of genocidal maniacs not actually being the ones to start the war, though they escalated it enormously.
+    {"id": 42, "question": "In 2020 and then again in 2024, Armenia (Side A) was invaded by Azerbaijan (Side B) seeking to regain territory lost in the previous war and remove Armenians from disputed territories.", "effects": {"democracy": 1, "aggression": -1,   "genocide": -1}}, //Azerbaijan now openly genocidal dictatorship 
+    {"id": 43, "question": "In 2022, Russia (Side A) carried out a large-scale invasion of Ukraine (Side B).", "effects": {"democracy": -1, "aggression": 1, "genocide": 1}}, //Genocidal activity well-documented
+    {"id": 44, "question": "In 2023, Hamas (Side A) launched a large pogrom across the Gazan border on Israel (Side B), which responded by invading the Gaza Strip to eliminate Hamas.", "effects": {"democracy": -1, "aggression": 1 }}, //Proven genocidal intentions and activity by Hamas; unproven allegations of genocide on a larger scale by Israel with intent not clearly established; ergo, not scored on genocide.
+    
+    //Hypothetical conflicts - these are scored primarily on unambiguous V-Dem differences. As these are not scored on aggression, this creates opportunities to enter into the rarer two quadrants, though few people will get there without trying very hard.
+    {"id": 50, "question": "Suppose that there is a future conflict between China (Side A) and Taiwan (Side B). Which do you think you will more likely support?", "effects": {"democracy": -1 }},
+    {"id": 51, "question": "Suppose that there is a future conflict between China (side A) and Philippines (side B). Which do you think you will more likely support?", "effects": {"democracy": -1,}},
+    {"id": 52, "question": "Suppose that there is a future conflict between China (side A) and India (side B). Which do you think you will more likely support?", "effects": {"democracy": -1 }},
+    {"id": 53, "question": "Suppose that there is a future conflict between China (side A) and Indonesia (side B). Which do you think you will more likely support?", "effects": {"democracy": -1,  }},
+    {"id": 54, "question": "Suppose that there is a future conflict between Pakistan (side A) and India (side B). Which do you think you will more likely support?", "effects": {"democracy": -1 }},
+    {"id": 55, "question": "Suppose that there is a future conflict between Pakistan (side A) and Iran (side B). Which do you think you will more likely support?", "effects": {"democracy": 1}},
+    {"id": 56, "question": "Suppose that there is a future conflict between Greece (side A) and Turkey (side B). Which do you think you will more likely support?", "effects": {"democracy": 1 }},
+    {"id": 57, "question": "Suppose that there is a future conflict between Guyana (side A) and Venezuela (side B). Which do you think you will more likely support?", "effects": {"democracy": 1 }},
+    {"id": 58, "question": "Suppose that there is a future conflict between Brazil (side A) and Venezuela (side B). Which do you think you will more likely support?", "effects": {"democracy": 1 }},
+    {"id": 59, "question": "Suppose that there is a future conflict between Azerbaijan (side A) and Armenia (side B). Which do you think you will more likely support?", "effects": {"democracy": -1, "genocide": 1 }}, //Current Azeri government very openly genocidal in intentions.
+    {"id": 60, "question": "Suppose that there is a future conflict between the Baltic states (side A) and Russia (side B). Which do you think you will more likely support?", "effects": {"democracy": 1}},
+    {"id": 61, "question": "Suppose that there is a future conflict between the Khazakhstan (side A) and Russia (side B). Which do you think you will more likely support?", "effects": {"democracy": 1 }},
+    {"id": 62, "question": "Suppose that there is a future conflict between the Khazakhstan (side A) and China (side B). Which do you think you will more likely support?", "effects": {"democracy": 1,  }},
+    {"id": 63, "question": "Suppose that there is a future conflict between Israel (side A) and some number of surrounding Arab states (side B). Which do you think you will more likely support?", "effects": {"democracy": 1 }}
 ];

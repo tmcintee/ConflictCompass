@@ -10,7 +10,7 @@
     </script>
 
     <meta charset="utf-8">
-    <title>ThreeDimensions Quiz</title>
+    <title>ConflictCompass Quiz</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
@@ -25,18 +25,18 @@
 
 <body>
 
-	<h1 class="title">ThreeDimensions</h1>
+	<h1 class="title">ConflictCompass</h1>
     <svg id="svgHeader" style="width: 100%;" viewBox="0 0 112 19">
-		<text x="50%" y="15" class="svgHeader">ThreeDimensions</text>
+		<text x="50%" y="15" class="svgHeader">ConflictCompass</text>
 	</svg>
 <hr>
 <h2 style="text-align:center;" id="question-number">Loading...</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question(1.0)" style="background-color: #1b5e20;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question(0.5)" style="background-color: #4caf50;">Agree</button> <br>
+<button class="button" onclick="next_question(1.0)" style="background-color: #1b5e20;">Strongly support Side A</button> <br>
+<button class="button" onclick="next_question(0.5)" style="background-color: #4caf50;">Support Side A partially but with caveats</button> <br>
 <button class="button" onclick="next_question(0)" style="background-color: #bbbbbb;">Neutral / Unsure</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Support Side B partially but with caveats</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly support Side B</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
 <button class="small_button_off" id="back_button_off">Back</button><br>
 
@@ -149,7 +149,7 @@
             }
         }
         //return;
-        location.href = ((window.location.hostname == "sapplyvalues.github.io") ? `feedback.html` : `results.html`) + args
+        location.href = ((window.location.hostname == "conflictcompass.github.io") ? `feedback.html` : `results.html`) + args
 
     }
 
